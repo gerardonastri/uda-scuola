@@ -1,0 +1,77 @@
+.container{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(170, 74, 68);
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+.logoContainer h2{
+    font-weight: 200;
+    margin-left: 10px;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links > a{
+    margin-right: 30px;
+}
+.links > a:hover, .links span:hover, .icons svg:hover{
+    color: white;
+}
+.links span{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    margin-left: 30px;
+}
+.icons svg{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.dropdown{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    background-color: rgb(170, 74, 68);
+    padding: 5px 20px;
+    z-index: 999;
+}
+.dropdown a{
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+.dropdown a:hover{
+   color: white;
+}
+.display{
+    display: flex !important;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        height: 110px;
+        padding-bottom: 10px;
+    }
+    .links{
+
+    }
+    .links a{
+        margin-right: 15px;
+    }
+    .icons{
+        margin-left: 10px;
+    }
+}

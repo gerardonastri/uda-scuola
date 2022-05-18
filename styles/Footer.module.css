@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    background-color: #282829;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 200;
+    padding: 50px 0;
+}
+.wrapper{
+    width: 45%;
+    text-align: center;
+}
+.linksContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+
+}
+.links h3{
+    margin-bottom: 40px;
+    font-weight: 200;
+    color: gray;
+}
+.links a, .links span{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.links span{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.links svg{
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+}
+.wrapper hr{
+    border: 1px solid gray;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+.wrapper > span{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+.footerEmail{
+    color:burlywood;
+}
+.footerEmail:hover{
+    color: aqua;
+}
+@media screen and (max-width: 600px) {
+    .wrapper{
+        width: 95%;
+    }
+}
