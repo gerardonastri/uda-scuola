@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 import Crossword from '@jaredreisinger/react-crossword'
 
-export default function crossword() {
+export default function crossword({iframe}) {
     const data = {
         across: {
           1: {
@@ -26,7 +26,7 @@ export default function crossword() {
   return (
      <div className={styles.container}>
         <div className={styles.Crossword}>
-        <iframe width="1000" height="800" style={{backgroundColor:"white", padding:"5px 0px 0 5px", border:"3px solid black", margin:"auto", display:"block"}} frameborder="0" src="https://crosswordlabs.com/embed/io-vengo-dalla-strada"></iframe>
+        <div dangerouslySetInnerHTML={{__html: iframe}} />
         </div>
      </div>
   );

@@ -34,17 +34,17 @@ export default function Home() {
               <h2>Classe 2C</h2>
             </Link>
         </div>
-        <div className={styles.sec1}>
+        <div className={styles.sec4}>
             <Link passHref href="class/2d">
               <h2>Classe 2D</h2>
             </Link>
         </div>
-        <div className={styles.sec2}>
+        <div className={styles.sec5}>
             <Link passHref href="class/2f">
               <h2>Classe 2F</h2>
             </Link>
         </div>
-        <div className={styles.sec3}>
+        <div className={styles.sec6}>
             <Link passHref href="class/2g">
               <h2>Classe 2G</h2>
             </Link>
