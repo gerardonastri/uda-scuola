@@ -25,3 +25,13 @@
     width: 100% !important;
     height: 100% !important;
 }
+@media screen and (max-width: 650px) {
+    .stuffContainer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .card{
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+}

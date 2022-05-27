@@ -25,9 +25,7 @@ export default function crossword({iframe}) {
       }
   return (
      <div className={styles.container}>
-        <div className={styles.Crossword}>
-        <div dangerouslySetInnerHTML={{__html: iframe}} />
-        </div>
+        <div className={styles.iframeContainer} dangerouslySetInnerHTML={{__html: iframe}} />
      </div>
   );
 }
