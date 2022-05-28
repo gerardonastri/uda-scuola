@@ -7,7 +7,7 @@ import Footer from '../../components/Footer'
 import Crossword from '../../components/Crossword'
 
 export default function Class() {
-  const iframe = `<iframe width="1000" height="800" style={{backgroundColor:"white", padding:"5px 0px 0 5px", border:"3px solid black", margin:"auto", display:"block"}} frameBorder="0" src="https://crosswordlabs.com/embed/io-vengo-dalla-strada"></iframe>`
+  const iframe = `<iframe  styles={{backgroundColor:"white", padding:"5px 0px 0 5px", border:"3px solid black", margin:"auto", display:"block"}} frameBorder="0" src="https://crosswordlabs.com/embed/io-vengo-dalla-strada"></iframe>`
 
     return (
       <div className={styles.container}>
