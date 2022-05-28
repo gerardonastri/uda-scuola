@@ -49,4 +49,7 @@
         height: 400px;
         flex: 1;
     }
+    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6{
+        background-position: center;
+    }
 }

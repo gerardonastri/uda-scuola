@@ -33,10 +33,18 @@ export default function Navbar() {
               <Link passHref href="/class/2g">Classe 2G</Link>
             </div>
             <div className={styles.icons}>
-              <LinkedInIcon />
-              <GitHubIcon />
-              <InstagramIcon />
-              <FacebookIcon />
+              <Link passHref href="https://www.linkedin.com/in/gerardo-nastri-a31240237/">
+                <LinkedInIcon />
+              </Link>
+              <Link passHref href="https://github.com/gerardonastri">
+                <GitHubIcon />
+              </Link>
+              <Link passHref href="https://www.instagram.com/illgerardo/">
+                <InstagramIcon />
+              </Link>
+              <Link passHref href="https://www.facebook.com/profile.php?id=100009579646708">
+                <FacebookIcon />
+              </Link>
             </div>
         </div>
      </div>
