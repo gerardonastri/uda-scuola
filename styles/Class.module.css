@@ -1,4 +1,11 @@
-
+.container h2 a{
+    font-size: 14px;
+    color: rgb(170, 74, 68);
+    word-wrap: break-word;
+}
+.container h2 a:hover{
+    color: chocolate;
+}
 
 .stuffContainer{
     display: flex;
@@ -33,5 +40,9 @@
     .card{
         max-height: 250px;
         margin-bottom: 20px;
+    }
+    .container h2 a{
+        width: 90vw;
+        padding: 0 10px;
     }
 }
