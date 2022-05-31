@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
         <div className={styles.links}>
             <Link passHref href="/home">Home</Link>
-            <Link passHref href="/contact">Contact</Link>
+            <Link passHref href="https://www.iismargheritahackbaronissi.edu.it/contact">Contact</Link>
             <span onMouseOver={() => setShowDropDown(true)}>Classi <ArrowDropDownIcon/></span>
             <div onMouseLeave={() => setShowDropDown(false)} className={showDropDown ? `${styles.dropdown} ${styles.display}` : styles.dropdown}>
               <Link passHref href="/class/2a">Classe 2A</Link>

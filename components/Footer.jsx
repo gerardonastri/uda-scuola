@@ -17,17 +17,16 @@ export default function Navbar() {
             <div className={styles.linksContainer}>
                 <div className={styles.links}>
                     <h3>LINKS</h3>
-                    <Link passHref href="/home">Home</Link>
-                    <Link passHref href="/contact">Contact</Link>
-                    <Link passHref href="/about">About</Link>
-                    <Link passHref href="https://jer-modern-blog.herokuapp.com/">Blog</Link>
+                    <Link passHref href="/">Home</Link>
+                    <Link passHref href="https://www.iismargheritahackbaronissi.edu.it/contact">Contact</Link>
+                    <Link passHref href="https://www.iismargheritahackbaronissi.edu.it/">About</Link>
                 </div>
                 <div className={styles.links}>
                     <h3>ABOUT ME</h3>
-                    <Link passHref href="/home">About Me</Link>
+                    <Link passHref href="https://www.linkedin.com/in/gerardo-nastri-a31240237/">About Me</Link>
                     <Link passHref href="https://jer-modern-blog.herokuapp.com/">Blog</Link>
-                    <Link passHref href="/about">Privacy Police</Link>
-                    <Link passHref href="/home">Terms Of Service</Link>
+                    <Link passHref href="/"> Via Trinita, 27 tel.089 955514 </Link>
+                    <Link passHref href="/">Via M. Galdi, n. 2684081 Baronissi (SA)</Link>
                 </div>
                 <div className={styles.links}>
                     <h3>CONNECT</h3>
