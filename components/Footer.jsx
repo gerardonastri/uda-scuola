@@ -22,9 +22,9 @@ export default function Navbar() {
                     <Link passHref href="https://www.iismargheritahackbaronissi.edu.it/">About</Link>
                 </div>
                 <div className={styles.links}>
-                    <h3>ABOUT ME</h3>
+                    <h3>ABOUT</h3>
                     <Link passHref href="https://www.linkedin.com/in/gerardo-nastri-a31240237/">About Me</Link>
-                    <Link passHref href="https://jer-modern-blog.herokuapp.com/">Blog</Link>
+                    <a  href="mailto:SAIS044009@istruzione.it?subject=Mail" target="_blank">SAIS044009@istruzione.it</a>
                     <Link passHref href="/"> Via Trinita, 27 tel.089 955514 </Link>
                     <Link passHref href="/">Via M. Galdi, n. 2684081 Baronissi (SA)</Link>
                 </div>
