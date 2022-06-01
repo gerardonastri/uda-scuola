@@ -28,6 +28,11 @@
 .sec2{
     background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url('/screen-cruciverba-2b.png');
 }
+.sec5{
+    background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url('/screen-mappa-2f.png');
+    background-size: contain;
+    background-position: center;
+}
 .sec1, .sec2, .sec4, .sec5{
     margin-right: 10px;
 }
