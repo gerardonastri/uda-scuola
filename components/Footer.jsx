@@ -45,7 +45,7 @@ export default function Navbar() {
                 </div>
             </div>
             <hr />
-            <span>Built by <a href="mailto:gerardonastri.dev@gmail.com?subject=Mail" target="_blank" className={styles.footerEmail}>gerardonastri@gmail.com</a></span>
+            <span>Built by <a href="mailto:gerardonastri.dev@gmail.com?subject=Mail" target="_blank" className={styles.footerEmail}>gerardonastri.dev@gmail.com</a></span>
          </div>
      </div>
   );
