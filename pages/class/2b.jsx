@@ -25,6 +25,11 @@ export default function Class() {
                   <img src="/screen-italiano-2b.png" alt="" />
                 </a>
             </div>
+            <div className={styles.card}>
+                <a href="/Tutte le strade portano a Roma.pdf" download>
+                  <img src="/roma-2b.png" alt="" />
+                </a>
+            </div>
           </div>
             <Crossword iframe={iframe} />
           <Footer />
