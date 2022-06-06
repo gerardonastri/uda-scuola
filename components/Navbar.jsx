@@ -29,7 +29,7 @@ export default function Navbar() {
               <Link passHref href="/class/2c">Classe 2C</Link>
               <Link passHref href="/class/2d">Classe 2D</Link>
               <Link passHref href="/class/2e">Classe 2E</Link>
-              <Link passHref href="/class/2f">Classe 2F</Link>
+              <Link passHref href="https://gerardonastri.github.io/uda-2f/2f.html">Classe 2F</Link>
               <Link passHref href="/class/2g">Classe 2G</Link>
             </div>
             <div className={styles.icons}>
