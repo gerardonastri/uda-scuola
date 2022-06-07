@@ -20,7 +20,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className={styles.links}>
-            <Link passHref href="/home">Home</Link>
+            <Link passHref href="/">Home</Link>
             <Link passHref href="https://www.iismargheritahackbaronissi.edu.it/contact">Contact</Link>
             <span onMouseOver={() => setShowDropDown(true)}>Classi <ArrowDropDownIcon/></span>
             <div onMouseLeave={() => setShowDropDown(false)} className={showDropDown ? `${styles.dropdown} ${styles.display}` : styles.dropdown}>

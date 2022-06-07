@@ -8,7 +8,7 @@
 .sectionsContainer h2{
     cursor: pointer;
 }
-.sec1, .sec2, .sec3, .sec4, .sec5, .sec6{
+.sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7{
     /*flex: 1;*/
     height: 350px;
     /*background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url('https://www.pixelstalk.net/wp-content/uploads/images5/4K-Programming-Wallpaper-for-Desktop.jpg');*/
@@ -33,6 +33,12 @@
     background-size: contain;
     background-position: center;
 }
+.sec7{
+    background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.1)), url('/cruciverba-2e.png');
+    background-size: contain;
+    background-position: center;
+    margin-right: 10px;
+}
 .sec1, .sec2, .sec4, .sec5{
     margin-right: 10px;
 }
@@ -49,12 +55,12 @@
     .sec1, .sec2{
         margin-right: 0;
     }
-    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6{
+    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7{
         margin-bottom: 15px;
         height: 400px;
         flex: 1;
     }
-    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6{
+    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7{
         background-position: center;
     }
 }

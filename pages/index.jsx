@@ -39,6 +39,11 @@ export default function Home() {
               <h2>Classe 2D</h2>
             </Link>
         </div>
+        <div className={styles.sec7}>
+            <Link passHref href="class/2e">
+              <h2>Classe 2E</h2>
+            </Link>
+        </div>
         <div className={styles.sec5}>
             <Link passHref href="https://gerardonastri.github.io/uda-2f/2f.html">
               <h2>Classe 2F</h2>
